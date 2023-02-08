@@ -569,6 +569,8 @@ ul li {
 
 .checkbox-area input {
   position: absolute;
+  top: 4.5px;
+  left: 15px;
   width: 16px;
   height: 15px;
   appearance: none;
@@ -579,14 +581,18 @@ ul li {
 }
 .checkbox-area label::before {
   content: "";
-  background: url("./images/svg/rectangle.svg");
+  background: url("../images/svg/rectangle.svg");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 16px;
   height: 15px;
   display: block;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 4.5px;
+  left: 15px;
+}
+.checkbox-area input:checked + label::before {
+  background: url("../images/svg/rectangle-check.svg");
 }
 .checkbox-area a {
   color: var(--brand-color);
