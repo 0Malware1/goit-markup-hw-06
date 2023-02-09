@@ -384,6 +384,18 @@
           </li>
         </ul>
       </div>
+      <div class="newsletter-join">
+        <form name="newsletter-registration" class="newsletter-form">
+          <label for="mail-newsletter" class="newsletter-label">ZAPISZ SIĘ DO NEWSLETTERA</label>
+          <div class="newsletter-positioning">
+            <input type="email" name="mail-newsletter" class="newsletter-input" placeholder="E-mail">
+            <button type="button" class="newsletter-button">
+            <span>Zapisz się</span>
+            <svg width="24" height="24"><use href="./images/icons.svg#icon-send"></use></svg>
+          </div>
+          </button>
+        </form>
+      </div>
     </div>
     </footer>
     <div class="specifier">
@@ -411,8 +423,10 @@
             <textarea name="comment" placeholder="Wprowadź tekst" class="text-area-modification"></textarea></div>
             <div class="checkbox-area">
             
-            <input type="checkbox" name="rules"><label for="rules">Oświadczam iż akceptuję <a href='#'>Regulamin</a> i <a href='#'>Politykę Prywatności</a>.</label>
-            <!-- <svg width="16" height="15"><use href="./images/icons.svg#rectangle-unchecked"></use></svg> -->
+            <input id="input-terms" type="checkbox" name="rules" class="checkbox-og">
+            <label id="input-terms" for="rules" class="checkbox-label" value="true" required>Oświadczam iż akceptuję <a href='#'>Regulamin</a> i <a href='#'>Politykę Prywatności</a>.
+            </label>
+           
           </div>
             <div class="button-positioning"><button class="buttons2">Wyślij</button></div>
           </form>
