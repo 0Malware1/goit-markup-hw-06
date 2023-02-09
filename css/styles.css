@@ -22,8 +22,8 @@ body {
   flex-direction: row;
   gap: 10px;
   align-items: center;
-  fill: var(--svg-colors);
-  color: #757575;
+  fill: var(--subtext-color);
+  color: var(--subtext-color);
   text-decoration: none;
 }
 .highlighter2:hover {
