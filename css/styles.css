@@ -9,7 +9,7 @@
   --svg-colors: #afb1b8;
 }
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
   background-color: var(--sub-backgrounds3);
 }
