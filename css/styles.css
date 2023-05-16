@@ -540,9 +540,12 @@ ul li {
   background-color: var(--sub-backgrounds3);
   margin-top: 8px;
   margin-right: 8px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-button:hover {
   cursor: pointer;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.499);
 }
 .backdrop {
   position: fixed;
@@ -721,6 +724,7 @@ ul li {
 }
 .buttons2:hover {
   cursor: pointer;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.499);
 }
 /* portfolio */
 .choose {
